@@ -1,0 +1,89 @@
+/* CSS styles */
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("images/futuristic-technology_YWJQBD3VIX.jpg");
+    margin: 0;
+    padding: 0;
+}
+
+img.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 2em;
+}
+div.container
+{
+    display:flex;
+    flex-direction: row;
+    margin:auto;
+    margin-top: 5em;
+    width : 700px;
+    height: 600px;
+}
+div.leftpart{
+    width : 30%;
+    padding-right : 2em;
+    padding-left : 1em;
+    background-color: rgb(179, 179, 219);
+    overflow-y:scroll;
+}
+div.leftpart .name-container{
+    height : 3em;
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    background-color: rgb(70, 70, 195);
+    padding : 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-radius: 2em 0.5em 0.5em 2em;
+}
+div.leftpart .name-container span{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size:x-large;
+    margin-left: 1em;
+}
+div.leftpart .name-container img{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+div.rightpart{
+    padding-top: 2em;
+    display:block;
+    margin-left: 5%;
+    width: 70%;
+    background-color: rgb(179, 179, 219);
+    overflow-y:scroll;
+}
+div.rightpart .rightpart-body{
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+}
+div.rightpart .rightpart-body .story-container{
+    width: 100%;
+    display:flex;
+    flex-direction: row-reverse;
+    margin-bottom: 1em;
+}
+div.rightpart .rightpart-body .story-container .story-text-container{
+    width: 60%;
+}
+div.rightpart .rightpart-body .story-container .story-text-container p{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: white;
+    margin-top: 1.5em;
+}
+div.rightpart .rightpart-body .story-container .story-text-container span{
+    float:right;
+    color: white;
+}
